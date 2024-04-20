@@ -19,6 +19,10 @@ import StudentDashboard from './components/student/StudentDashboard'
 import CompanyDashboard from './components/company/CompanyDashboard'
 import CompanyCard from './components/company/CompanyCard'
 import MyState from './context/myState'
+import Details from './components/Details/Details'
+import StudDetails from './components/Details/StudDetails'
+import UpdateDetails from './components/Details/UpdateDetails'
+
 function App() {
   
   return (
@@ -33,6 +37,10 @@ function App() {
       <Route path='/student-dashboard' element={<StudentDashboard />} />
       <Route path='/company-dashboard' element={<CompanyDashboard />} />
       <Route path='/test' element={<CompanyCard/>} />
+      <Route path='/Cdetails' element={<Details/>} />
+      <Route path='/Sdetails' element={<StudDetails/>} />
+      <Route path='/nm' element={<UpdateDetails/>}/>
+      
     </Routes>
     <Toaster/>
   </Router></MyState>

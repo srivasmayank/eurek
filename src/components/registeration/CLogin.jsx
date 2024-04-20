@@ -6,6 +6,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth, fireDB } from "../../firebase/FirebaseConfig";
 import { collection, onSnapshot, query, where } from "firebase/firestore";
 
+
 const CLogin = () => {
      // navigate 
      const navigate = useNavigate();

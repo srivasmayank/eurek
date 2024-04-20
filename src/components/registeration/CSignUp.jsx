@@ -58,7 +58,7 @@ const CSignup = () => {
             toast.success("Signup Successfully");
 
         
-            navigate('/clogin')
+            navigate('/Cdetails')
         } catch (error) {
             console.log(error);
             
@@ -148,7 +148,7 @@ const CSignup = () => {
 
                 {/* Sponsor Buttons */}
                
-            <p>Already have an account? <Link to={'/login'} className='text-secondary font-weight-bold'>Login</Link></p>
+            <p>Already have an account? <Link to={'/clogin'} className='text-secondary font-weight-bold'>Login</Link></p>
             </div>
         </div>
     );

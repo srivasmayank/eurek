@@ -1,0 +1,38 @@
+/* HomePage.css */
+
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .left-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .right-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Adjust margin and padding as needed */
+  .left-content button {
+    margin-right: 10px;
+  }
+  
+  /* Adjust margin and padding as needed */
+  .right-content img {
+    margin-left: 10px;
+  }
+  
